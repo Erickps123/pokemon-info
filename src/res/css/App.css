@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.pokemon_logo img {
+ width: 60%;
+ height: 60%;
+ margin-top: 25vh;
+}
+.pokemon_logo{
+    width: 15vw;
+    position: fixed;
+    z-index: -1;
+}
+.container{
+    width: 100vw;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.row .backbutton {
+    flex: 1;
+    margin: auto 2vw;
+    text-align: right;
+    position: relative;
+}
+
+.row .pokecard {
+    flex: 1;
+    width: 50vw;
+    margin: auto;
+}
+
+.row .nextbutton {
+    flex: 1;
+    margin: auto 2vw;
+    position: relative;
+}
+
+.navbtn {
+    background-color: transparent;
+    border: none;
+}
+
+.navbtn img {
+    opacity: 0.3;
+}
+
+.pokeball {
+    width: 15vw;
+}
+
+.pokeball-footer {
+    position: fixed; 
+    right: 0px;
+    bottom: 0px; 
+    opacity: 0.8;
+}
